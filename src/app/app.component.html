@@ -1,0 +1,26 @@
+
+<html>
+    <head><meta name="viewport" content="width=device-width, initial-scale=1"></head>
+    <body class="mx-auto"   class="p-3 mb-2 bg-light text-dark"class="border" class="col">
+        <div class="text-primary" >
+           <h3 style="text-align: center;"> Vote  Age Eligibility Checker</h3>
+        <!-- Item 1 -->
+        <div class="center" >
+            <br/> <br/>
+            Enter Your Name :&nbsp; &nbsp;<input type="text" [(ngModel)]="c" >
+            <br/> <br/>
+            Enter Your Age  :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" [(ngModel)]="a">
+            <br/> <br/>
+        </div>
+    </div>
+        <br/> <br/>
+        <div class="alert alert-success" role="alert" >
+            <h4 class="alert-heading"style="text-align: center;">{{c | uppercase}} </h4>
+            <p style="text-align: center;">{{a |vote}} </p>
+            <p style="text-align: center;">{{a | link}}</p>
+        </div>
+        
+    </body>
+    
+    
+</html>
